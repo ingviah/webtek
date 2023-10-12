@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>P2</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>P2 requirements group 33</h1>
+        <p>by Kasper, Philip, Thomas and Hedvig</p>
+        <p>Date: 11th of October 2023</p>
+    </header>
+
+    <section>
+        <h2>Administrative Details</h2>
+        <p>Client: Nonstop FK</p>
+        <p>Contact: Synne Brovold - team coach</p>
+    </section>
+
+    <section>
+        <h2>Purpose, goals, and audience</h2>
+        <p>The purpose of the site is to unite fans and players while promoting Nonstop FK. The site should contain all the information about the football team. It will contain a list of all upcoming and played matches, and information about the players. 
+            The intended users are players of Nonstop FK as well as the supporters of the team. Both the players and the supporters have a need to follow the team.
+            </p>
+    </section>
+
+    <section>
+        <h2>Navigation Structure</h2>
+        <img src="../img/navigationStructure.png" alt="navigation Structure">
+        <p>As you can see on the storyboard above all html files are linked to each other. That is because there will be a navigation bar present on every page. From the navigation bar you can access the team page and fixtures page, and can return to the homepage by clicking on the logo present in the navbar.</p>
+    </section>
+
+    <section>
+        <h2>Page Layout and Appearance</h2>
+        <h3>homepage.html</h3>
+        <img src="../img/homepageFigma.png" alt="Homepage design">
+        <img src="../img/popupFigma.png" alt="news article">
+        <p></p>
+
+        <h3>fixtures.html</h3>
+        <img src="../img/fixturesFigma.png" alt="Fixtures design">
+        <p></p>
+
+        <h3>team.html</h3>
+        <img src="../img/teamFigma.png" alt="Team page design">
+        <p></p>
+        <br>
+        <ul>
+            <li>Color Scheme:</li>
+            <ul>
+                <li>Primary Color: Light grey (RGB(245,245,245))</li>
+                <li>Secondary Color: Dark Red (RBG(137,47,40)), same as logocolor</li>
+            </ul>
+            <li>Typography:</li>
+            <ul>
+                <li>Primary-font: Sans-serif</li>
+                <li>Secondary-font: Helvetica</li>
+                <li>Sizes:</li>
+                <ul>
+                    <li>H1: 40</li>
+                    <li>H2: 30</li>
+                    <li>H3: 20</li>
+                    <li>P: 14</li>
+                </ul>
+            </ul>
+            <li>Navbar:</li>
+            <ul>
+                <li>Position: Top of the page, static (does not move when users scroll).</li>
+                <li>Appearance: Dark Grey</li>
+                <li>Buttons: Two, labeled "Fixtures" and "Team".</li>
+            </ul>
+            <li>Additional Elements:</li>
+            <ul>
+                <li>Contact Form: Clean white input field, dark red submit button with white text.</li>
+                <li>League Table: Text directly on background</li>
+            </ul>
+        </ul>
+        
+    </section>
+
+    <section>
+        <h2>Content</h2>
+        <h4>homepage.html</h4>
+        <p>The homepage is the first page the user will see when entering the website. The goal for this page is to provide the user with useful information.
+            We decided to make the next scheduled match visible in the homepage for easy access for the user. It is a simple text layout with who the team is playing against, where and when. 
+            To the left we have provided a table of the position of the teams in the league, because this is something we think the typical user will be interested in, and therefore it should be easily accessed. 
+            To keep the users updated on the latest news regarding the football team we provide a grid with pictures, a bold heading, and the first characters of the text. In this way the user can get an overview of the news articles, and click on what they want to read more about. 
+            Also, there is a question/feedback input box in the bottom left corner. We want it to be easy for the user to contact the team. 
+            The navigation bar is visible at every page on the website. The navigation bar has three sections: the logo, “Kampoppsett”, and “Laget”. Through these sections the user gets access to every page of the website. When clicking on the logo at the top left, the user should be directed to this homepage. When clicking on “Kampoppsett” the user will be directed to fixtures.html. When clicking on “Lahet” the user will be directed to team.html. When hovering the different sections, they will become larger/bold. 
+            </p>
+        <h4>fixtures.html</h4>
+        <p>fixtures show information about all the matches of the team. The next match is presented at the top, like we did in the homepage. Every match is shown in a table, because it is an informative way to present data. If the match has been played, the results will be displayed. In this way it is easy to see the result of played matches, and when and where the upcoming matches will take place. 
+            As mentioned, the navigation bar is also present at this page.</p>
+        <h4>team.html</h4>
+        <p>This is the information page for the football team. The goal for this page is to inform the user about the team. The page provides a short descriptive text of the team, as well as a teamphoto and the logo. And the navigation bar is present at the top of the page.</p>
+    </section>
+
+    <section>
+        <h2>Minimum requirements</h2>
+        <p>Our objective is to meet the minimum requirements while also incorporating additional functionality. Below you can see how we intend to meet these requirements:</p>
+        <ul>
+            <li>OnClick.js</li>
+            <p>This Javascript function is implemented to make something happen when the user clicks something. For example, if the user clicks the Nonstop logo, the user should be redirected to the home page. This function will also be used when the user wishes to show interest in a news article, or click on “send in”.</p>            
+            <li>Hover.js</li>
+            <p>The “Hover.js” function should add interactive hover effects to enhance the user experience. These effects will be applied to the different menus: “About the team”, “Kampoppsett” and “Laget””. These effects should also be applied to buttons and links on the site, and will help make the website more engaging and user-friendly.</p>            
+            <li>Popup.js</li>
+            <p>This function is used to create pop-up windows to display additional information when the user interacts with specific elements on the webpage. In our case, when a user wishes to show interest in a news article in the home page, there will pop-up showing the whole article.</p>            
+            <li>NewsArticle.js</li>
+            <p>A function to help display the content of the news articles. Photo, Heading and text.</p>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Plan</h2>
+        <img src="../img/workDivision.png" alt="work division">
+    </section>
+
+    <section>
+        <h2>Organizational Scheme</h2>
+        <p>These files will be stored inside a project folder called nonstopfk.</p>
+        <h4>List of files and folders:</h4>
+        <ul>
+            <li>img/</li>
+            <ul>
+                <li>logo.png</li>
+                <li>teampicture.png</li>
+                <li>clockicon.png</li>
+                <li>calendericon.png</li>
+                <li>locationicon.png</li>
+            </ul>
+            <li>css/</li>
+            <ul>
+                <li>style.css</li>
+            </ul>
+            <li>scripts/</li>
+            <ul>
+                <li>onclick.js</li>
+                <li>hover.js</li>
+                <li>popup.js</li>
+                <li>newsArticle.js</li>
+            </ul>
+            <li>html/</li>
+            <ul>
+                <li>homepage.html</li>
+                <li>team.html</li>
+                <li>fixtures.html</li>
+            </ul>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Created by Kasper, Philip, Thomas and Hedvig</p>
+    </footer>
+
+</body>
+</html>

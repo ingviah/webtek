@@ -1,6 +1,12 @@
 
 body {
     background-color: rgb(242, 245, 248);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 30%;
 }
 
 footer {
