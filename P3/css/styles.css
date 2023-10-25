@@ -33,6 +33,8 @@ body{
     margin: 8px;
     display: grid;
     gap: 10px;
+    grid-template-columns: 30% 70%;  /* Define the width distribution for the grid columns */
+
 }
 
 .table{
@@ -50,16 +52,19 @@ body{
 }
 
 .news {
-    grid-column: 2 / span 3;
+    grid-column: 2;
     grid-row: 1 / span 2;
 }
 
 body h1{
     font-size: 40px;
+    margin: 10px 0;
 }
 
 body h2{
     font-size: 30px;
+    margin: 5px 0;
+    text-align: center;
 }
 
 body h3{
@@ -82,3 +87,21 @@ body p{
     padding: 5px;
     border-radius: 15px;
 }
+
+.table table {
+    width: 100%;  /* take the full width of its container */
+    border-collapse: collapse;  /* remove gaps between cells */
+    font-size: 12px;  /* adjust as needed */
+    color: RGB(137,47,40);
+}
+
+.table th, .table td {
+    padding: 5px;  /* space inside each cell */
+    text-align: left;  /* align text to the left; adjust as needed */
+    border-bottom: 1px solid #ddd;  /* a light border on the bottom of each cell */
+}
+
+.table tr:last-child td {
+    border-bottom: none;  /* remove the bottom border from the last row */
+}
+
