@@ -1,0 +1,53 @@
+
+body{
+    background-color: RGB(245,245,245);
+    font-family: sans-serif, Helvetica;
+}
+
+.homepage-content{
+    display: grid;
+    gap: 10px;
+}
+
+.table{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.feedback{
+    grid-column: 1 ;
+    grid-row: 2;
+}
+
+.news {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2;
+}
+
+
+
+body h1{
+    font-size: 40px;
+}
+
+body h2{
+    font-size: 30px;
+}
+
+body h3{
+    font-size: 20px;
+}
+
+body p{
+    font-size: 14px;
+}
+
+
+.next-match{
+    text-align: center;
+}
+
+#feedback-button{
+    background-color: RGB(137,47,40);
+    color: white;
+}
