@@ -1,0 +1,32 @@
+/* Resetting some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* You can change this to your preferred font */
+    text-decoration: none;
+    background-color: RGB(245,245,245);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #d5d5d5; /* Background color of the navbar */
+    padding: 10px 50px; /* Adjust this for larger/smaller padding */
+}
+
+.navbar .logo img {
+    height: 50px; /* You can adjust this based on your logo size */
+    cursor: pointer; /* Changes the mouse cursor to a hand pointer when hovering over the logo */
+}
+
+.navbar .nav-links a {
+    margin-left: 20px; /* Spacing between the links */
+    color: black; /* Text color of the links */
+    font-weight: bold; /* Makes the text bold */
+    font-size: 1.2em; /* Adjust text size */
+    transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+.navbar .nav-links a:hover {
+    color:  RGB(137,47,40); /* Text color of links on hover */
+}
