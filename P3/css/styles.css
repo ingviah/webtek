@@ -149,8 +149,6 @@ margin-top: 8%;
 .smallnewscard{
     min-width: 20%;    
     background-color:#d5d5d5 ;
-
-
 }
 
 .smallnewscard > img{
@@ -160,4 +158,10 @@ margin-top: 8%;
 
 .smallnewscard :nth-child(2){
     font-weight: bold;
+    
+}
+
+.smallnewscard > p{
+    padding:0 0 3px 3px;
+    margin-bottom: 0px;
 }
