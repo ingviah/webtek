@@ -40,6 +40,7 @@ body{
 .table{
     grid-column: 1;
     grid-row: 1;
+    
 }
 
 .feedback{
@@ -49,6 +50,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    padding-bottom: 5%;
+    
 }
 
 .news {
@@ -105,3 +108,56 @@ body p{
     border-bottom: none;  /* remove the bottom border from the last row */
 }
 
+/* about style*/
+.aboutcontent{
+display: flex;
+gap: 5%;
+width: 90%;
+margin: auto;
+margin-top: 8%;
+
+}
+
+.aboutcontent > img{
+    max-width: 50%;
+    object-fit: contain;
+}
+
+.teaminfo > img{
+    max-width: 35%;
+    object-fit: contain;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+
+}
+
+.teaminfo > p{
+    font-size: 18px;
+}
+
+/*small newscard*/
+.news{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 5%;
+    max-width: 70%;
+    margin-left:15% ;
+    padding-bottom: 10%;
+    
+}
+.smallnewscard{
+    min-width: 20%;    
+    background-color:#d5d5d5 ;
+
+
+}
+
+.smallnewscard > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.smallnewscard :nth-child(2){
+    font-weight: bold;
+}
