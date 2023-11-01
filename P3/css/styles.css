@@ -149,6 +149,7 @@ margin-top: 8%;
 .smallnewscard{
     min-width: 20%;    
     background-color:#d5d5d5 ;
+    overflow-wrap: break-word;
 }
 
 .smallnewscard > img{
