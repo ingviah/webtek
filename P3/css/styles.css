@@ -114,15 +114,19 @@ display: flex;
 gap: 5%;
 width: 90%;
 margin: auto;
-margin-top: 8%;
+
 
 }
 
 .aboutcontent > img{
     max-width: 50%;
     object-fit: contain;
+    margin-top: 2%;
 }
 
+.teaminfo{
+    margin-top: 5%;
+}
 .teaminfo > img{
     max-width: 35%;
     object-fit: contain;
