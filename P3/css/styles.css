@@ -170,3 +170,32 @@ margin: auto;
     padding:0 0 3px 3px;
     margin-bottom: 0px;
 }
+
+/*styling fixtures*/
+#fixtures {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for headings */
+#fixtures h1, #fixtures h2, #fixtures p {
+    text-align: center;
+}
+
+/* Styles for table in fixtures.html */
+#fixtures .fixtures-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#fixtures .fixtures-list th, #fixtures .fixtures-list td {
+    border: 1px solid #f2f2f2;
+    padding: 8px;
+    text-align: center;
+}
+
+#fixtures .fixtures-list th {
+    background-color: #f2f2f2;
+}
