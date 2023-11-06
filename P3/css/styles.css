@@ -7,7 +7,6 @@
 
 .navbar .logo img {
     height: 50px; /* You can adjust this based on your logo size */
-    cursor: pointer; /* Changes the mouse cursor to a hand pointer when hovering over the logo */
 }
 
 .navbar .nav-links a {
@@ -113,8 +112,6 @@ body p{
 display: flex;
 gap: 5%;
 width: 90%;
-margin: auto;
-
 
 }
 
