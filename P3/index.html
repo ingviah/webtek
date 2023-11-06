@@ -9,6 +9,9 @@
     <script src="components/navbar.js"></script>
     <script src="components/newsarticle.js"></script>
     <script src="components/newsmodal.js"></script>
+    <script src="components/popupMessage.js"></script>
+    <script src="components/onclick.js"></script>
+
 </head>
 
 <body>
@@ -79,7 +82,7 @@
         <div class="feedback">
             <h2>Spørsmål eller tilbakemelding?</h2>
             <textarea placeholder="Skriv her..."></textarea>
-            <button id="feedback-button">SEND INN</button>
+            <button id="feedback-button" onclick="popupMessage('Du har sendt inn en tilbakemelding')">SEND INN</button>
         </div>
 
         <div class="news">

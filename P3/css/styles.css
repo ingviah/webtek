@@ -114,15 +114,19 @@ display: flex;
 gap: 5%;
 width: 90%;
 margin: auto;
-margin-top: 8%;
+
 
 }
 
 .aboutcontent > img{
     max-width: 50%;
     object-fit: contain;
+    margin-top: 2%;
 }
 
+.teaminfo{
+    margin-top: 5%;
+}
 .teaminfo > img{
     max-width: 35%;
     object-fit: contain;
@@ -167,6 +171,34 @@ margin-top: 8%;
     margin-bottom: 0px;
 }
 
+/*styling fixtures*/
+#fixtures {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for headings */
+#fixtures h1, #fixtures h2, #fixtures p {
+    text-align: center;
+}
+
+/* Styles for table in fixtures.html */
+#fixtures .fixtures-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#fixtures .fixtures-list th, #fixtures .fixtures-list td {
+    border: 1px solid #f2f2f2;
+    padding: 8px;
+    text-align: center;
+}
+
+#fixtures .fixtures-list th {
+    background-color: #f2f2f2;
+}
 .modal {
     display: none;
     position: fixed;
