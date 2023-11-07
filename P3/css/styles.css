@@ -10,17 +10,20 @@
 }
 
 .navbar .nav-links a {
-    margin-left: 20px; /* Spacing between the links */
+    margin-left: 40px; /* Spacing between the links */
     color: black; /* Text color of the links */
-    font-weight: bold; /* Makes the text bold */
     font-size: 1.2em; /* Adjust text size */
     transition: color 0.3s; /* Smooth transition for hover effects */
+    text-decoration: none;
 }
 
 .navbar .nav-links a:hover {
     color:  RGB(137,47,40); /* Text color of links on hover */
 }
 
+textarea {
+    height: 100px; 
+  }
 
 body{
     margin: 0;
@@ -238,3 +241,11 @@ width: 90%;
 }
 
 
+/* Style for the close button */
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }

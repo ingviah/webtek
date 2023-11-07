@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const modalImage = document.getElementById('modalImage');
     const modalHeader = document.getElementById('modalHeader');
     const modalParagraph = document.getElementById('modalParagraph');
+    const closeModalButton = document.getElementById('closeModal'); // Added this line
+
 
     document.querySelector('.news').addEventListener('click', function (e) {
         if (e.target && e.target.parentElement.className === 'smallnewscard') {
@@ -18,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    closeModalButton.addEventListener('click', function () {
+        modal.style.display = 'none';
+    });
 
     window.addEventListener('click', function (e) {
         if (e.target === modal) {
